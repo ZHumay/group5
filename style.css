@@ -20,7 +20,6 @@ line-height: 101.38%;}
 }
 .umumi{
     width: 1440px;
-/* height: 6575px; */
 }
 img{width: 399px;
     height: 160px;}
@@ -32,7 +31,9 @@ font-style: normal;
 font-weight: 700;
 font-size: 55px;
 line-height: 101.38%;
+padding-left: 121px;
 /* or 56px */
+padding-left: 121px;
 color: #000000;
 }
 .tmetn{
@@ -245,7 +246,6 @@ color: #FFFFFF;
 .tumumi{
     width: 834px;
     height: 451.75px;
-    padding-top: 52.7px;
     padding-left: 70.66px;
     background: #EFEFEF;
     display: flex;
@@ -262,8 +262,8 @@ color: #FFFFFF;
     }
     .tmetn{
         padding-left: 26.06px;
-        padding-top: 23.17px;
         padding-right: 26.64px;
+        padding-top: 10px;
         width: 405.42px;
         height: 117.57px;
         font-size: 12px;
@@ -276,6 +276,7 @@ color: #FFFFFF;
         display: flex;
     }
     .gorek{
+<<<<<<< HEAD
         box-sizing: border-box;
     }
     .tfb{width: 18.53px;
@@ -284,6 +285,17 @@ color: #FFFFFF;
     padding-bottom: 50px;
     }
     .tdiv{ padding-bottom: 30px;
+=======
+        display: flex;
+        
+    }
+    .tfb{width: 18.53px;
+        height: 17.95px;
+    padding-left: px;
+    padding-bottom: 1px;
+    }
+    .tdiv{
+>>>>>>> main
     width: 458.12px;
     height: 261.2px;
     background: #FFFFFF;
