@@ -17,7 +17,7 @@ width: 987px;}
 }
 .umumi{
     width: 1440px;
-height: 6575px;
+/* height: 6575px; */
 }
 img{width: 399px;
     height: 160px;}
@@ -55,7 +55,7 @@ height: 169px;}
     flex-direction: row;
     padding-left: 26px;
     position: absolute;
-    top: 600px;
+    /* top: 600px; */
 }
 .tauthor{width: 353px;
 height: 59px;
@@ -285,7 +285,7 @@ color: #FFFFFF;
         flex-direction: row;
         padding-left: 26px;
         position: absolute;
-        top: 350px;
+        /* top: 350px; */
     }
     .tauthor{width: 205px;
     height: 34px;
@@ -744,7 +744,7 @@ color: #000000;
         }
         .umumi{
             width: 834px;
-height: 3800px;
+/* height: 3800px; */
         }
         img{
             width: 231.09px;
