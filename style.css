@@ -226,7 +226,7 @@ color: #FFFFFF;
         padding-top: 10px;
         width: 405.42px;
         height: 117.57px;
-        font-size: 6px;
+        font-size: 13px;
     }
     .tse{
         width: 110.04px;
@@ -234,6 +234,7 @@ color: #FFFFFF;
     
     .yekaterina{
         display: flex;
+        padding-left: 10px;
     }
     .gorek{
         box-sizing: border-box;
@@ -242,9 +243,10 @@ color: #FFFFFF;
         height: 17.95px;
     padding-left: 15px;
     padding-bottom: 50px;
+    margin-top: -20px;
     }
     .tdiv{ padding-bottom: 30px;
-        display: flex;
+        
         
     }
     .tfb{width: 18.53px;
@@ -566,6 +568,7 @@ height: 8.39px;
             .tson{
                 width: 141px;
                 margin-bottom: -100px;
+                margin-top: -100px;
 height: 19px;
             font-family: 'Roboto';
             font-style: normal;
@@ -726,13 +729,12 @@ height: 19px;
                     }
                     .umumi{
                         width: 834px;
-            height: 3800px;
                     }
                     .hum{
                         width: 231.09px;
             height: 92.67px;
                     }
-                    h1{
+                    .hummy{
                         width: 524.15px;
                     height: 53.86px;
                     font-family: 'Roboto Slab';
@@ -867,15 +869,14 @@ height: 19px;
                     .dispnone{
                         display: inline-block;
                     }
-                    .dispblock{
+                    .dispblock {
                         display: none;
                     }
                     .umumi{
-                        width: 375px;
-            height: 4524px; }
-                    .hum{width: 185.92px;
-                        height: 74.56px;}
-                    h1{
+                        width: 375px; }
+                    .hum {width: 185.92px;
+                        height: 74.56px; }
+                    .hummy{
              width: 421.7px;
             height: 43.34px;
             font-family: 'Roboto Slab';
@@ -887,13 +888,8 @@ height: 19px;
             margin-right: 80.7px;
             color: #000000;
                     }
-                .humaybox1{
-                    width: 185.92px;
-            height: 152.84px;
-            margin-left: 95px;
-            margin-right: 94.08px; 
-            margin-bottom: 24.16px;}
-            .humaybox2,.humaybox3,.humaybox4,.humaybox5,.humaybox6,.humaybox7,.humaybox8{
+              
+            .humaybox1,.humaybox2,.humaybox3,.humaybox4,.humaybox5,.humaybox6,.humaybox7,.humaybox8{
                 width: 185.92px;
             height: 152.84px;
             margin-left: 95px;
