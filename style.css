@@ -31,9 +31,8 @@ font-style: normal;
 font-weight: 700;
 font-size: 55px;
 line-height: 101.38%;
-padding-left: 121px;
-/* or 56px */
-padding-left: 121px;
+margin-left: 124px;
+margin-right: 414px;
 color: #000000;
 }
 .tmetn{
@@ -101,6 +100,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 30px;
 color: #000000;
+line-height: 130%;
 }
 
 .tusec{ 
@@ -276,7 +276,6 @@ color: #FFFFFF;
         display: flex;
     }
     .gorek{
-<<<<<<< HEAD
         box-sizing: border-box;
     }
     .tfb{width: 18.53px;
@@ -285,7 +284,6 @@ color: #FFFFFF;
     padding-bottom: 50px;
     }
     .tdiv{ padding-bottom: 30px;
-=======
         display: flex;
         
     }
@@ -295,7 +293,6 @@ color: #FFFFFF;
     padding-bottom: 1px;
     }
     .tdiv{
->>>>>>> main
     width: 458.12px;
     height: 261.2px;
     background: #FFFFFF;
@@ -435,7 +432,7 @@ height: 23.17px;
     
     color: #FFFFFF;
     
-    }}
+    }
  
 @media screen and (min-width: 320px) and (max-width: 991px){
 
@@ -941,3 +938,4 @@ margin-top: 0.47px;
 color: #000000;
 
 } }
+}
