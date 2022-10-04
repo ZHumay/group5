@@ -11,7 +11,10 @@ flex-direction: column;
 }
 .t{
 padding-right: 331px;
-width: 987px;}
+width: 987px;
+font-weight: 700;
+font-size:55px;
+line-height: 101.38%;}
 .dispnone{
     display: none;
 }
@@ -49,23 +52,26 @@ color: #000000;
 .tse{
 width: 190px;
 height: 169px;}
-
+.tdiv{
+    width: 791px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    }
+    
 .yekaterina{
     display: flex;
-    flex-direction: row;
-    padding-left: 26px;
-    position: absolute;
-    /* top: 600px; */
 }
-.tauthor{width: 353px;
-height: 59px;
-padding-left: 30px;
-font-family: 'Roboto Slab';
-color: #000000;
-margin-left: 124px;
-margin-right: 414px;
+.gorek {
+    box-sizing: border-box;
 }
-
+.tfb {
+    width: 40px;
+    height: 40px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
 .humaybox1{
 width: 399px;
 height: 328px;
@@ -94,23 +100,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 30px;
 color: #000000;
-}
-.gorek{
-    display: flex;
-    flex-direction: column;
-}
-.tfb{
-width: 32px;
-height: 31px;
-padding-left: 30px;
-}
-.tdiv{
-padding-top: 34px;
-width: 791px;
-height: 451px;
-background: #FFFFFF;
-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-border-radius: 30px;
 }
 
 .tusec{ 
@@ -144,6 +133,10 @@ font-size: 25px;
 line-height: 101.38%;
 /* or 25px */
 color: #000000;
+margin-top: 40px;
+}
+.yoxam{
+    padding-top: 30px;
 }
 .tpul{
 width: 481px;
@@ -152,14 +145,13 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 80px;
-position: absolute;
-top: 1175px;
 color: #000000;
+
 }
 .tcedvel{
     display:flex;
     flex-direction: row;
-    padding-top: 200px;
+    padding-top: 5px;
     padding-right:800px;
 justify-content: space-between;
 width: 650px;
@@ -644,7 +636,8 @@ height: 19px;
             
             color: #FFFFFF;
             line-height: 130%;
-            }
+            }}
+            
 p{width: 365px;
     height: 63px;
     padding-left:19px ;
@@ -971,4 +964,4 @@ padding-bottom: 10.72px;
 margin-top: 0.47px;
 color: #000000;
 
-} }}
+} }
