@@ -20,7 +20,6 @@ line-height: 101.38%;}
 }
 .umumi{
     width: 1440px;
-/* height: 6575px; */
 }
 img{width: 399px;
     height: 160px;}
@@ -245,7 +244,6 @@ color: #FFFFFF;
 .tumumi{
     width: 834px;
     height: 451.75px;
-    padding-top: 52.7px;
     padding-left: 70.66px;
     background: #EFEFEF;
     display: flex;
@@ -262,8 +260,8 @@ color: #FFFFFF;
     }
     .tmetn{
         padding-left: 26.06px;
-        padding-top: 23.17px;
         padding-right: 26.64px;
+        padding-top: 10px;
         width: 405.42px;
         height: 117.57px;
         font-size: 12px;
@@ -274,27 +272,17 @@ color: #FFFFFF;
     
     .yekaterina{
         display: flex;
-        flex-direction: row;
-        padding-left: 26px;
-        position: absolute;
-        /* top: 350px; */
-    }
-    .tauthor{width: 205px;
-    height: 34px;
-    padding-left: 18px;
-    font-size: 17px;
-    color: #000000;
     }
     .gorek{
         display: flex;
-        flex-direction: column;
+        
     }
     .tfb{width: 18.53px;
         height: 17.95px;
-    padding-left: 18px;
+    padding-left: px;
+    padding-bottom: 1px;
     }
     .tdiv{
-    padding-top: 20px;
     width: 458.12px;
     height: 261.2px;
     background: #FFFFFF;
