@@ -20,7 +20,6 @@ line-height: 101.38%;}
 }
 .umumi{
     width: 1440px;
-/* height: 6575px; */
 }
 img{width: 399px;
     height: 160px;}
@@ -247,7 +246,6 @@ color: #FFFFFF;
 .tumumi{
     width: 834px;
     height: 451.75px;
-    padding-top: 52.7px;
     padding-left: 70.66px;
     background: #EFEFEF;
     display: flex;
@@ -264,8 +262,8 @@ color: #FFFFFF;
     }
     .tmetn{
         padding-left: 26.06px;
-        padding-top: 23.17px;
         padding-right: 26.64px;
+        padding-top: 10px;
         width: 405.42px;
         height: 117.57px;
         font-size: 12px;
@@ -276,27 +274,28 @@ color: #FFFFFF;
     
     .yekaterina{
         display: flex;
-        flex-direction: row;
-        padding-left: 26px;
-        position: absolute;
-        /* top: 350px; */
-    }
-    .tauthor{width: 205px;
-    height: 34px;
-    padding-left: 18px;
-    font-size: 17px;
-    color: #000000;
     }
     .gorek{
-        display: flex;
-        flex-direction: column;
+<<<<<<< HEAD
+        box-sizing: border-box;
     }
     .tfb{width: 18.53px;
         height: 17.95px;
-    padding-left: 18px;
+    padding-left: 15px;
+    padding-bottom: 50px;
+    }
+    .tdiv{ padding-bottom: 30px;
+=======
+        display: flex;
+        
+    }
+    .tfb{width: 18.53px;
+        height: 17.95px;
+    padding-left: px;
+    padding-bottom: 1px;
     }
     .tdiv{
-    padding-top: 20px;
+>>>>>>> main
     width: 458.12px;
     height: 261.2px;
     background: #FFFFFF;
@@ -344,14 +343,12 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 46px;
-    position: absolute;
-    top: 725px;
     color: #000000;
     }
     .tcedvel{
         display:flex;
         flex-direction: row;
-        padding-top: 140px;
+        padding-top: 5px;
     justify-content: space-between;
     width: 400px;
     }
@@ -474,10 +471,6 @@ height: 84px;}
             
             .yekaterina{
                 display: flex;
-                flex-direction: row;
-                padding-left: 21px;
-                position: absolute;
-                top: 340px;
             }
             .tauthor{width: 164.49px;
                 height: 32.73px;
@@ -486,35 +479,31 @@ height: 84px;}
             color: #000000;
             }
             .gorek{
-                display: flex;
-                flex-direction: column;
+                box-sizing: border-box;
             }
             .tfb{width: 14.91px;
                 height: 17.2px;
             padding-left: 14px;
+            padding-bottom: 20px;
             }
             .tdiv{
-            padding-top: 11px;
             width: 308px;
 height: 248px;
 background: #FFFFFF;
 box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
 border-radius: 13.9792px;
             }
-            
-            
             .tusec{ 
                 width: 347px;
                 height: 363.46px;
-                padding-top:62px ;
+                padding-top: 1px ;
                 padding-right: 32px ;
                 padding-left: 35px;
-                padding-bottom:63px ;
                 background: #9DC9C8;
             }
             .thead{
                 width: 224px;
-                height: 63px;
+                height: 45px;
             font-family: 'Roboto Slab';
             font-style: normal;
             font-weight: 700;
@@ -526,7 +515,6 @@ border-radius: 13.9792px;
             .tsto{
                 width: 79.22px;
                 height: 14.91px;
-            padding-top: 23px;
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
@@ -537,19 +525,17 @@ border-radius: 13.9792px;
             }
             .tpul{
                 width: 224.13px;
-height: 84.34px;
+              height: 50px;
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
             font-size: 37px;
-            position: absolute;
-            top: 647px;
             color: #000000;
             }
+            
             .tcedvel{
                 display:flex;
                 flex-direction: row;
-                padding-top: 110px;
             justify-content: space-between;
             width: 300px;
             }
@@ -583,9 +569,7 @@ height: 47px;
                 color: white;
                 line-height: 1;
                 list-style-type: none;
-                position: absolute;
-                left:10px;
-                top: 1099px;
+                
             }
             li{
                 width: 148.18px;
@@ -595,11 +579,6 @@ height: 47px;
             font-weight: 400;
             font-size: 12px;
             line-height: 101.38%;
-            }
-            .tbas{
-                display: flex;
-                flex-direction: column;
-                padding-top: 34px;
             }
             .tlogo{
                 padding-top: 23px;
@@ -618,8 +597,7 @@ height: 8.39px;
              width: 15px;
             height: 15px;
             }
-            .oglan{ position: absolute;
-                top:1075px;
+            .oglan{ 
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -634,11 +612,9 @@ height: 19px;
             font-size: 10px;
             line-height: 101.38%;
             /* or 18px */
-            padding-top: 70px;
-            
             color: #FFFFFF;
             line-height: 130%;
-            }}
+            }
             
 p{width: 365px;
     height: 63px;
@@ -730,14 +706,13 @@ color: #000000;
     font-weight: 400px;
     font-size: 25px;
     line-height: 130%;
-    color: #000000; }
+    color: #000000; } }
     @media screen and (min-width: 992px) and (max-width:1279px){
         .dispnone{
             display: none;
         }
         .umumi{
             width: 834px;
-/* height: 3800px; */
         }
         img{
             width: 231.09px;
@@ -882,8 +857,7 @@ height: 92.67px;
             display: none;
         }
         .umumi{
-            width: 375px;
-height: 4524px; }
+            width: 375px;}
         img{width: 185.92px;
             height: 74.56px;}
         h1{
