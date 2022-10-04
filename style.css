@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.tumumi{
+width: 1440px;
+height: 780px;
+padding-top: 91px;
+padding-left: 122px;
+background: #EFEFEF;
+display: flex;
+flex-direction: column;
+}
+.t{
+padding-right: 331px;
+width: 987px;}
 .dispnone{
     display: none;
 }
 .umumi{
     width: 1440px;
-height: 6575px;
+/* height: 6575px; */
 }
 img{width: 399px;
     height: 160px;}
@@ -16,6 +28,39 @@ font-family: 'Roboto Slab';
 font-style: normal;
 font-weight: 700;
 font-size: 55px;
+line-height: 101.38%;
+/* or 56px */
+color: #000000;
+}
+.tmetn{
+    padding-left: 45px;
+    padding-top: 40px;
+    padding-right: 46px;
+    width: 700px;
+    height: 203px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    color: #000000;
+}
+.tse{
+width: 190px;
+height: 169px;}
+
+.yekaterina{
+    display: flex;
+    flex-direction: row;
+    padding-left: 26px;
+    position: absolute;
+    /* top: 600px; */
+}
+.tauthor{width: 353px;
+height: 59px;
+padding-left: 30px;
+font-family: 'Roboto Slab';
 color: #000000;
 margin-left: 124px;
 margin-right: 414px;
@@ -49,6 +94,557 @@ font-style: normal;
 font-weight: 700;
 font-size: 30px;
 color: #000000;
+}
+.gorek{
+    display: flex;
+    flex-direction: column;
+}
+.tfb{
+width: 32px;
+height: 31px;
+padding-left: 30px;
+}
+.tdiv{
+padding-top: 34px;
+width: 791px;
+height: 451px;
+background: #FFFFFF;
+box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+.tusec{ 
+    width: 1030px;
+    height: 780px;
+    padding-top:121px ;
+    padding-right:410px ;
+    padding-left: 122px;
+    padding-bottom:185px ;
+    background: #9DC9C8;
+}
+.thead{
+width: 908px;
+height: 66px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+/* or 56px */
+color: #000000;
+}
+.tsto{
+    width: 170px;
+height: 32px;
+padding-top: 54px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 101.38%;
+/* or 25px */
+color: #000000;
+}
+.tpul{
+width: 481px;
+height: 181px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+position: absolute;
+top: 1175px;
+color: #000000;
+}
+.tcedvel{
+    display:flex;
+    flex-direction: row;
+    padding-top: 200px;
+    padding-right:800px;
+justify-content: space-between;
+width: 650px;
+}
+.tf{
+    width: 294px;
+    height: 32px; 
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 101.38%;
+}
+.tr{
+    width: 294px;
+height: 70px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 101.38%;
+}
+.tun{
+    width: 1440px;
+height: 390px;
+background: #000000;
+padding-left: 122px;
+padding-bottom: 23px;
+}
+ul{
+    color: white;
+    line-height: 2;
+    list-style-type: none;
+}
+li{
+    width: 280px;
+height: 40px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 101.38%;
+}
+.tbas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 185px;
+    padding-top: 59px;
+}
+.tlogo{
+    padding-bottom: 50px;
+    width: 115px;
+    height: 68px;
+}
+.tphone{
+width: 27px;
+height: 27px;
+}
+.tmail{
+width: 27px;
+height: 18px;
+}
+.qiz{
+ width: 34px;
+height: 34px;
+}
+.oglan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+}
+.tson{
+    width: 230px;
+height: 40px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 101.38%;
+/* or 18px */
+padding-top: 146px;
+
+color: #FFFFFF;
+} 
+
+@media screen and (min-width: 922px) and (max-width: 1279px){
+
+.tumumi{
+    width: 834px;
+    height: 451.75px;
+    padding-top: 52.7px;
+    padding-left: 70.66px;
+    background: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    }
+    .t{
+    padding-right: 191.7px;
+    width: 700px;
+    height: 53.86px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    }
+    .tmetn{
+        padding-left: 26.06px;
+        padding-top: 23.17px;
+        padding-right: 26.64px;
+        width: 405.42px;
+        height: 117.57px;
+        font-size: 12px;
+    }
+    .tse{
+        width: 110.04px;
+        height: 97.88px;}
+    
+    .yekaterina{
+        display: flex;
+        flex-direction: row;
+        padding-left: 26px;
+        position: absolute;
+        /* top: 350px; */
+    }
+    .tauthor{width: 205px;
+    height: 34px;
+    padding-left: 18px;
+    font-size: 17px;
+    color: #000000;
+    }
+    .gorek{
+        display: flex;
+        flex-direction: column;
+    }
+    .tfb{width: 18.53px;
+        height: 17.95px;
+    padding-left: 18px;
+    }
+    .tdiv{
+    padding-top: 20px;
+    width: 458.12px;
+    height: 261.2px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    }
+    
+    
+    .tusec{ 
+        width: 595.5px;
+        height: 452px;
+        padding-top:104px ;
+        padding-right: 238px ;
+        padding-left: 70.66px;
+        padding-bottom:108px ;
+        background: #9DC9C8;
+    }
+    .thead{
+    width: 529px;
+    height: 39px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 101.38%;
+    /* or 56px */
+    color: #000000;
+    }
+    .tsto{
+    width: 98.46px;
+    height: 18.53px;
+    padding-top: 31px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.38%;
+    /* or 25px */
+    color: #000000;
+    }
+    .tpul{
+        width: 278.58px;
+        height: 104.83px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    position: absolute;
+    top: 725px;
+    color: #000000;
+    }
+    .tcedvel{
+        display:flex;
+        flex-direction: row;
+        padding-top: 140px;
+    justify-content: space-between;
+    width: 400px;
+    }
+    .tf{
+        width: 170.28px;
+height: 18.53px; 
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 101.38%;
+    }
+    .tr{
+        width: 170.28px;
+        height: 40.54px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 101.38%;
+    }
+
+    .tun{
+        width: 834px;
+    height: 226px;
+    background: #000000;
+    padding-left: 70.66px;
+    padding-bottom: 24px;
+    }
+    ul{
+        color: white;
+        line-height: 1;
+        list-style-type: none;
+    }
+    li{
+        width: 175px;
+    height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.38%;
+    }
+    .tbas{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 110px;
+        padding-top: 34px;
+    }
+    .tlogo{
+        padding-top: 29px;
+        width: 67px;
+        height: 40px;
+    }
+    .tphone{
+        width: 15.64px;
+        height: 15.64px;
+    }
+    .tmail{
+        width: 15.64px;
+        height: 10.43px;
+    }
+    .qiz{
+     width: 19px;
+    height: 19px;
+    }
+    .oglan{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 130px;
+    }
+    .tson{
+        width: 133.21px;
+height: 23.17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 101.38%;
+    /* or 18px */
+    padding-top: 35px;
+    
+    color: #FFFFFF;
+    
+    }}
+ 
+@media screen and (min-width: 320px) and (max-width: 991px){
+
+ .tumumi{
+            width: 376px;
+height: 423px;
+            padding-top: 42px;
+            padding-left: 36px;
+            background: #EFEFEF;
+            display: flex;
+            flex-direction: column;
+            }
+ .t{
+            padding-right: 83px;
+            width: 257px;
+height: 69px;
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            }
+            .tmetn{
+                padding-left: 21px;
+                padding-top: 19px;
+                padding-right: 21px;
+                width: 266px;
+height: 111.01px;
+                font-size: 10px;
+            }
+            .tse{
+                width: 80px;
+height: 84px;}
+            
+            .yekaterina{
+                display: flex;
+                flex-direction: row;
+                padding-left: 21px;
+                position: absolute;
+                top: 340px;
+            }
+            .tauthor{width: 164.49px;
+                height: 32.73px;
+            padding-left: 14px;
+            font-size: 14px;
+            color: #000000;
+            }
+            .gorek{
+                display: flex;
+                flex-direction: column;
+            }
+            .tfb{width: 14.91px;
+                height: 17.2px;
+            padding-left: 14px;
+            }
+            .tdiv{
+            padding-top: 11px;
+            width: 308px;
+height: 248px;
+background: #FFFFFF;
+box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+border-radius: 13.9792px;
+            }
+            
+            
+            .tusec{ 
+                width: 347px;
+                height: 363.46px;
+                padding-top:62px ;
+                padding-right: 32px ;
+                padding-left: 35px;
+                padding-bottom:63px ;
+                background: #9DC9C8;
+            }
+            .thead{
+                width: 224px;
+                height: 63px;
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 101.38%;
+            /* or 56px */
+            color: #000000;
+            }
+            .tsto{
+                width: 79.22px;
+                height: 14.91px;
+            padding-top: 23px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 101.38%;
+            /* or 25px */
+            color: #000000;
+            }
+            .tpul{
+                width: 224.13px;
+height: 84.34px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 37px;
+            position: absolute;
+            top: 647px;
+            color: #000000;
+            }
+            .tcedvel{
+                display:flex;
+                flex-direction: row;
+                padding-top: 110px;
+            justify-content: space-between;
+            width: 300px;
+            }
+            .tf{
+                width: 137px;
+height: 14.91px; 
+                font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 101.38%;
+            }
+            .tr{
+                width: 137px;
+height: 47px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 101.38%;
+            }
+        
+            .tun{
+                width: 376px;
+            height: 251px;
+            background: #000000;
+            padding-left: 38px;
+            padding-bottom: 10px;
+            }
+            ul{
+                color: white;
+                line-height: 1;
+                list-style-type: none;
+                position: absolute;
+                left:10px;
+                top: 1099px;
+            }
+            li{
+                width: 148.18px;
+                height: 20px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 101.38%;
+            }
+            .tbas{
+                display: flex;
+                flex-direction: column;
+                padding-top: 34px;
+            }
+            .tlogo{
+                padding-top: 23px;
+                width: 53.59px;
+height: 31.69px;
+            }
+            .tphone{
+                width: 12.58px;
+height: 12.58px;
+            }
+            .tmail{
+                width: 12.58px;
+height: 8.39px;
+            }
+            .qiz{ 
+             width: 15px;
+            height: 15px;
+            }
+            .oglan{ position: absolute;
+                top:1075px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 120px;
+            }
+            .tson{
+                width: 141px;
+height: 19px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 101.38%;
+            /* or 18px */
+            padding-top: 70px;
+            
+            color: #FFFFFF;
+        
+            }}
 line-height: 130%;
 }
 p{width: 365px;
@@ -148,7 +744,7 @@ color: #000000;
         }
         .umumi{
             width: 834px;
-height: 3800px;
+/* height: 3800px; */
         }
         img{
             width: 231.09px;
