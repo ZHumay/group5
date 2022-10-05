@@ -56,6 +56,7 @@ height: 169px;}
     height: 40px;
     padding-left: 20px;
     padding-bottom: 50px;
+    margin-top: -30px;
 }
 
 
@@ -139,7 +140,7 @@ background: #000000;
 padding-left: 122px;
 padding-bottom: 23px;
 }
-ul{
+.tunuli{
     color: white;
     line-height: 2;
     list-style-type: none;
@@ -153,7 +154,7 @@ font-weight: 400;
 font-size: 25px;
 line-height: 101.38%;
 }
-.tbas{
+.tbas{ width: 1500px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -168,14 +169,18 @@ line-height: 101.38%;
 .tphone{
 width: 27px;
 height: 27px;
+color: #EFEFEF;
 }
 .tmail{
 width: 27px;
 height: 18px;
+color: #EFEFEF;
 }
 .qiz{
  width: 34px;
 height: 34px;
+
+margin-top: -400px;
 }
 .oglan{
     display: flex;
@@ -186,14 +191,13 @@ height: 34px;
 .tson{
     width: 230px;
 height: 40px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 101.38%;
 /* or 18px */
-padding-top: 146px;
+margin-top: -250px;
 
 color: #FFFFFF;
 } 
@@ -337,10 +341,12 @@ height: 18.53px;
     padding-left: 70.66px;
     padding-bottom: 24px;
     }
-    ul{
+    .tunuli{
         color: white;
         line-height: 1;
         list-style-type: none;
+        
+        margin-left: 500px;
     }
     li{
         width: 175px;
@@ -357,6 +363,7 @@ height: 18.53px;
         justify-content: space-between;
         padding-right: 110px;
         padding-top: 34px;
+        width:600px;
     }
     .tlogo{
         padding-top: 29px;
@@ -380,21 +387,13 @@ height: 18.53px;
         flex-direction: row;
         justify-content: space-between;
         width: 130px;
+        margin-top: 200px;
+        
     }
     .tson{
-        width: 133.21px;
-height: 23.17px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 101.38%;
-    /* or 18px */
-    padding-top: 35px;
-    
-    color: #FFFFFF;
-    
-    }
+        display: none;
+
+    }}
  
 @media screen and (min-width: 320px) and (max-width: 991px){
 
@@ -527,11 +526,15 @@ height: 47px;
             padding-left: 38px;
             padding-bottom: 10px;
             }
-            ul{
+            .tunuli{
                 color: white;
                 line-height: 1;
                 list-style-type: none;
+           
                 
+            }
+            .tbas{ 
+                width:200px;
             }
             li{
                 width: 148.18px;
@@ -564,6 +567,7 @@ height: 8.39px;
                 flex-direction: row;
                 justify-content: space-between;
                 width: 120px;
+                margin-top: 130px;
             }
             .tson{
                 width: 141px;
@@ -578,7 +582,7 @@ height: 19px;
             /* or 18px */
             color: #FFFFFF;
             line-height: 130%;
-            }}}
+            }}
 
             @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -884,7 +888,7 @@ height: 19px;
             font-weight: 700;
             font-size: 26px;
             line-height: 101.38%;
-            margin-left: 34px;
+            margin-left: 80px;
             margin-right: 80.7px;
             color: #000000;
                     }
@@ -959,12 +963,21 @@ height: 19px;
              @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
              
              body {
-                 width: 1440px;
-                 padding-left: 122px;
-             }
+                width: 1440px;
+                padding-left: 122px;
+            }
              
              .amir1 {
                  display: flex;
+                 width: 1440px;
+             }
+             .ellipseamir{
+                width:366px;
+                height:59px;
+             padding-left: 20px;
+             margin-top: -10px;
+             z-index: -1;
+               
              }
              
              .amirp1 {
@@ -972,9 +985,11 @@ height: 19px;
                  height: 374px;
                  font-family: 'Roboto';
                  font-style: normal;
-                 font-weight: 400;
+                 font-weight: 400px;
                  font-size: 24px;
                  line-height: 150%;
+                 padding-left: 122px;
+                 margin-top: -17px;
              }
              
              .amirh1 {
@@ -985,19 +1000,26 @@ height: 19px;
                  font-weight: 700;
                  font-size: 55px;
                  line-height: 101.38%;
+                 padding-left: 128px;
+                 padding-top: 173px;
+             }
+             .amirli{
+                margin-left: 100px;
              }
              
              .image1 {
                  width: 314px;
                  height: 315px;
-                 margin-left: 190px;
                  margin-top: 65px;
+                 z-index: -1;
+                 padding-left: 50px;
              }
              
              .image2 {
                  width: 232px;
                  height: 203px;
                  margin-top: 94px;
+                 padding-left: 121px;
              
              
              }
@@ -1021,7 +1043,7 @@ height: 19px;
              
              .a-p {
                  margin-left: 132px;
-                 margin-top: 1px;
+                 margin-top: -20px;
                  width: 150px;
                  height: 39px;
                  font-family: 'Roboto';
@@ -1032,6 +1054,7 @@ height: 19px;
              }
              
              .amir-h2 {
+                padding-left: 122px;
                  width: 667px;
                  height: 93px;
                  font-family: 'Roboto Slab';
@@ -1052,6 +1075,7 @@ height: 19px;
                  font-weight: 700;
                  font-size: 25px;
                  line-height: 130%;
+                 color: #1E4681;
              }
              
              .a-h12 {
@@ -1064,6 +1088,7 @@ height: 19px;
                  font-weight: 700;
                  font-size: 25px;
                  line-height: 130%;
+                 color: #1E4681;
              }
              
              .a-h11 {
@@ -1076,6 +1101,7 @@ height: 19px;
                  font-weight: 700;
                  font-size: 25px;
                  line-height: 130%;
+                 color: #1E4681;
              }
              
              .amir-play {
@@ -1120,7 +1146,8 @@ height: 19px;
              }
              
              .cto {
-                 margin-top: 249px;
+                padding-left: 122px;
+                 margin-top: 70px;
                  width: 667px;
                  height: 93px;
                  font-family: 'Roboto Slab';
@@ -1130,9 +1157,8 @@ height: 19px;
                  line-height: 101.38%;
              }
              
-             .list {
-                 margin-left: 138px;
-                 margin-top: 21px;
+            ul { list-style-type:disc;
+                 margin-left: 122px;
                  width: 662px;
                  height: 374px;
                  font-family: 'Roboto';
@@ -1140,12 +1166,20 @@ height: 19px;
                  font-weight: 400;
                  font-size: 24px;
                  line-height: 150%;
+                 color: black;
+                 padding-bottom: 100px;
              }
+             li{
+                width:1400px;
+                font-family: 'Roboto';
+               
+             }
+             
              
              @media screen and (min-width:992px) and (max-width:1279px) {
                  body {
                      width: 834px;
-                     padding-left: 70.08px;
+                     padding-left: 70px;
                  }
              
                  .amir1 {
@@ -1159,11 +1193,11 @@ height: 19px;
                      font-style: normal;
                      font-weight: 400;
                      font-size: 14px;
-                     line-height: 150%
+                     line-height: 150%;
+                     margin-left: -40px;
                  }
              
                  .amirh1 {
-                     margin-left: 70.66;
                      width: 211.4px;
                      height: 53.86px;
                      font-family: 'Roboto Slab';
@@ -1171,19 +1205,21 @@ height: 19px;
                      font-weight: 700;
                      font-size: 32px;
                      line-height: 101.38%;
+                     margin-left: -40px;
                  }
-             
+                 .ellipseamir{
+                   display: none;
+                 }
                  .image1 {
                      width: 181.86px;
                      height: 182.44px;
-                     margin-left: 110.04px;
                      margin-top: 24.32px;
                  }
              
                  .image2 {
                      width: 134.37px;
                      height: 117.57px;
-                     margin-left: 70.08px;
+                     margin-left: -40px;
                      margin-top: 54.44px;
              
              
@@ -1227,6 +1263,7 @@ height: 19px;
                      font-size: 32px;
                      line-height: 101.38%;
                      margin-top: 103.09px;
+                     margin-left: -40px;
                  }
              
                  .a-h13 {
@@ -1318,9 +1355,10 @@ height: 19px;
                      font-weight: 700;
                      font-size: 32px;
                      line-height: 101.38%;
+                     margin-left: -40px;
                  }
              
-                 .list {
+                 ul {
                      margin-left: 79.92px;
                      margin-top: 12.16px;
                      width: 383.41px;
@@ -1333,3 +1371,213 @@ height: 19px;
              
                  }
              }
+
+
+
+             @media screen and (min-width:320px) and (max-width:991px) {
+                body {
+                    width: 375px;
+                    padding-left: 70px;
+                }
+            
+                .amir1 {
+                    display: flex;
+                    flex-direction: column;
+                }
+            
+                .amirp1 {
+                    width: 383.41px;
+                    height: 216.61px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 150%;
+                    margin-left: -40px;
+                }
+            
+            
+                .amirh1 {
+                    padding-top: 30px;
+                    width: 211.4px;
+                    height: 53.86px;
+                    font-family: 'Roboto Slab';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 101.38%;
+                    margin-left: -40px;
+                }
+                .ellipseamir{
+                  display: none;
+                }
+                .image1 {
+                    width: 181.86px;
+                    height: 182.44px;
+               
+
+                }
+            
+                .image2 {
+                    width: 134.37px;
+                    height: 117.57px;
+                    margin-left: -40px;
+                    margin-top: 54.44px;
+                    display: none;
+            
+            
+                }
+            
+                .amir-flex {
+                    display: flex;
+                    flex-wrap: wrap;
+    
+                }
+            
+                .a-h3 {
+                    margin-left: 76.45px;
+                    margin-top: 94.98px;
+                    width: 86.88px;
+                    height: 22.59px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 130%;
+                }
+            
+                .a-p {
+                    margin-left: 76.45px;
+                    margin-top: 0.58px;
+                    width: 86.88px;
+                    height: 22.59px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 11px;
+                    line-height: 130%;
+                }
+            
+                .amir-h2 {
+                    width: 386.3px;
+                    height: 53.86px;
+                    font-family: 'Roboto Slab';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 101.38%;
+                    margin-top: 103.09px;
+                    margin-left: -40px;
+                }
+            
+                .a-h13 {
+                    margin-left: 70.66px;
+                    margin-top: 51.55px;
+                    width: 86.88px;
+                    height: 22.59px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 130%;
+                }
+            
+                .a-h12 {
+                    margin-left: 70.66px;
+                    margin-top: 51.55px;
+                    width: 123.94px;
+                    height: 22.59px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 130%;
+                }
+            
+                .a-h11 {
+                    margin-left: 70.66px;
+                    margin-top: 51.55px;
+                    width: 86.88px;
+                    height: 22.59px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 130%;
+                }
+            
+                .amir-play {
+                    display: flex;
+                    flex-direction: column;
+            
+                }
+            
+                .a-p1 {
+                    margin-top: 0.83px;
+                    margin-left: 71px;
+                    width: 153px;
+                    height: 22px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 11px;
+                    line-height: 130%;
+            
+                }
+            
+                .a-p2 {
+                    margin-top: 0.83px;
+                    margin-left: 71px;
+                    width: 172px;
+                    height: 63px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 11px;
+                    line-height: 130%;
+            
+                }
+            
+                .a-p3 {
+                    margin-top: 0.58px;
+                    margin-left: 71px;
+                    width: 141.9px;
+                    height: 22.59px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 11px;
+                    line-height: 130%;
+            
+                }
+            
+                .cto {
+                    margin-top: 114.55px;
+                    width: 386.3px;
+                    height: 53.86px;
+                    font-family: 'Roboto Slab';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 101.38%;
+                    margin-left: -40px;
+                }
+            
+                ul {
+                    margin-left: 79.92px;
+                    margin-top: 12.16px;
+                    width: 383.41px;
+                    height: 216.61px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 150%;
+            
+                }
+                li{
+                    width: 299px;
+                    height:35px;
+                }
+            }
+
